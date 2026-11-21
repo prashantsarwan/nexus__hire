@@ -1,0 +1,26 @@
+# Node modules (Frontend ke liye)
+node_modules/
+frontend/node_modules/
+
+# Build folders
+dist/
+frontend/dist/
+backend/target/
+target/
+
+# Environment & Secrets (Sabse important)
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+backend/src/main/resources/application.properties
+
+# Uploads & Logs
+uploads/
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.DS_Store
